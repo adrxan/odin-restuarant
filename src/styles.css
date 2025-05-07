@@ -115,14 +115,16 @@ img {
     font-size: 1.1rem;
 }
 
+h2,
 .menu-title {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .menu-item {
     margin-bottom: 8px;
 }
 
+h3,
 .item-name {
     display: inline-block;
     margin-right: 16px;
@@ -130,4 +132,13 @@ img {
 
 .item-desc {
     display: inline-block;
+    text-transform: lowercase;
+}
+
+.contact-wrapper {
+    display: flex;
+    font-family: "Unna", Times, serif;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
 }
